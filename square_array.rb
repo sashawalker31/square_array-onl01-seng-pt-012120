@@ -3,4 +3,5 @@ def square_array(array)
     numbers.each do |Integer|
       number << Integer**2
     end
+    return square_array(numbers)
 end
